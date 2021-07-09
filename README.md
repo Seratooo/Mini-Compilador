@@ -1,4 +1,6 @@
-# AnalisadorLexico-Java
+# Mini-Compilador 
+
+### AnalisadorLexico-Java
 Programa criado em java para analisar a estrutura lêxica
 da linguagem java.
 
