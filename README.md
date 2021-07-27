@@ -55,7 +55,7 @@ TOK_F-CHAVES ------------------------ LEXEMA: }
 A implementação do meu analisador sintático foi escrito com a linguagem java, tendo como linguagem de estudo a linguagem java. A implementação do analisador sintático baseou-se na analise dos tokens que foram gerados no analisador léxico.
 
 ### ENTRADA
-<img src="Img/EntradaSintaticaa.png">
+<img src="Img/EntradaSintatica.png">
 
 ### SAÍDA
 <img src="Img/SaidaSintatica.png">
