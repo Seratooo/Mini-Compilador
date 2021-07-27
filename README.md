@@ -1,23 +1,23 @@
 # MINI COMPILADOR - Java
-Apresento a implementação do meu Mini-Compilador, criado a partir da linguagem Java tendo como linguagem de estudo a linguagem Java. Para o desenvolvimento do compilador, não usou-se bibliotecas, a baixo apresento os tokens usados para validar os caracteres no programa, algumas funções auxiliares usadas para verificação dos caracteres encontrados, e o seu funcionamento.
+Apresento a implementação do meu Mini-Compilador, criado a partir da linguagem Java tendo como linguagem de estudo a linguagem Java. Para o desenvolvimento do compilador, não usou-se bibliotecas, a baixo apresento os tokens usados para validar os caracteres no programa, algumas funções auxiliares usadas para verificação dos caracteres encontrados e o seu funcionamento.
 
-### AnalisadorLexico-Java
+## ANÁLISE LÊXICA
 Programa criado em java para analisar a estrutura lêxica
 da linguagem java.
 
 ## Tokens Usados
 <img src="Img/tokens.png">
 
-## Funções Auxiliares (Para análise lêxica)
+## Funções Auxiliares
 <img src="Img/FuncAux.png">
 
-## Funcionamento da Análise Lêxica
+## Funcionamento
 Este analisador, verifica caracter por caracter digitado no programa
 ou ainda num ficheiro de texto, e gera tokens correnspondes a conjuntos
 de caracteres ou a um caracter que corresponde a estrutura lêxica da
 linguagem Java.
 
-### Exemplo - ENTRADA
+### ENTRADA
 
 ```Java
 int soma(int a, int b){
@@ -50,7 +50,8 @@ TOK_F-CHAVES ------------------------ LEXEMA: }
 <img src="./Analisador.png" alt="Analisador Léxico"> 
 
 
-## Funcionamento da Análise Sintática
+## ANÁLISE SINTÁTICA
+## Funcionamento
 A implementação do meu analisador sintático foi escrito com a linguagem java, tendo como linguagem de estudo a linguagem java. A implementação do analisador sintático baseou-se na analise dos tokens que foram gerados no analisador léxico.
 
 ### ENTRADA
@@ -59,7 +60,9 @@ A implementação do meu analisador sintático foi escrito com a linguagem java,
 ### SAÍDA
 <img src="Img/SaidaSintatica.png">
 
-## Funcionamento da Análise Semântica
+
+## ANÁLISE SEMÂNTICA
+## Funcionamento
 O objetivo dessa etapa é verificar se a semântica do programa fonte tem consistência. Para isso é utilizada a árvore sintática construída na fase anterior e as informações contidas na tabela de símbolos.
 
 ### ENTRADA
